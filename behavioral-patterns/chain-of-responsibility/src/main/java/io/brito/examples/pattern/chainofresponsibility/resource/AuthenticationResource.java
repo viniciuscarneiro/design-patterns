@@ -15,7 +15,7 @@ public class AuthenticationResource {
     private AuthenticationHandler authenticationHandler;
     private Database database;
 
-    public AuthenticationResource(){
+    public AuthenticationResource() {
         this.database = new Database();
         this.registerDefaultUsers();
         this.authenticationHandler = new ValidateNullObject();
@@ -31,12 +31,10 @@ public class AuthenticationResource {
         database.register("admin", "adminPassword");
     }
 
-    public boolean doAuthentication(AuthenticationRequest authenticationRequest) {
+    public void doAuthentication(AuthenticationRequest authenticationRequest) {
         if (authenticationHandler.check(authenticationRequest)) {
             log.info("Authorization have been successful!");
-            return true;
         }
         log.error("User not logged.");
-        return false;
     }
 }
