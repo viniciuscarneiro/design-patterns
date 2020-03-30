@@ -16,6 +16,8 @@ nós temos três tipos de padrões de projetos:
 * Estruturais
 * Comportamentais
 
+Abaixo irei disponibilizar um exemplo de código com a implementação para cada um dos tipos de padrões.
+
 #### Padrões Criacionais
 
 Os padrões criacionais nos fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente.
