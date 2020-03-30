@@ -42,7 +42,7 @@ Os padrões estruturais explicam como montar objetos e classes em estruturas mai
 
 Padrões comportamentais são voltados aos algoritmos e a designação de responsabilidades entre objetos.
 
-* Chain of Responsibility
+* [Chain of Responsibility](behavioral-patterns/chain-of-responsibility)
 * Command
 * Iterator
 * Mediator
